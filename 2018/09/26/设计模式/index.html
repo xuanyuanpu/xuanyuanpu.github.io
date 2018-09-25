@@ -1,0 +1,430 @@
+<!DOCTYPE HTML>
+<html lang="">
+<head>
+    <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content=", hexo-theme-matery">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>Hexo</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+</head>
+</head>
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/logo.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">Hexo</span>
+                    </a>
+                </div>
+
+                <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">Index</a>
+    </li>
+    
+    
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">Tags</a>
+    </li>
+    
+    
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">Archives</a>
+    </li>
+    
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">Hexo</div>
+        <div class="logo-desc">
+            
+            Never really desperate, only the lost of the soul.
+            
+        </div>
+    </div>
+    <ul class="menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                <i class="fa fa-link fa-lg fa-fw"></i>Index
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                <i class="fa fa-link fa-lg fa-fw"></i>Tags
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                <i class="fa fa-link fa-lg fa-fw"></i>Archives
+            </a>
+        </li>
+        
+    </ul>
+    <div class="social-link">
+        <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub"
+           data-position="top" data-delay="50">
+            <i class="fa fa-github fa-lg"></i>
+        </a>
+        <a href="mailto:chenjiayin1990@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我"
+           data-position="top" data-delay="50">
+            <i class="fa fa-envelope fa-lg"></i>
+        </a>
+        <a href="#!" class="tooltipped" data-tooltip="QQ号：1181062873" data-position="top" data-delay="50">
+            <i class="fa fa-qq fa-lg"></i>
+        </a>
+    </div>
+</div>
+
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main class="content">
+
+    <!-- 文章内容详情 -->
+    <div id="artDetail" class="container">
+        <div class="card">
+            <div class="card-content article-info">
+                
+                <div class="author-info">
+                    <span>
+                        <i class="fa fa-calendar fa-fw"></i>2018-09-26
+                    </span>
+                </div>
+            </div>
+            <hr>
+            <div class="card-content article-card-content">
+                <div id="articleContent">
+                    <hr>
+<h2 id="title：Hello-World"><a href="#title：Hello-World" class="headerlink" title="title：Hello World"></a>title：Hello World</h2><h2 id="设计模式"><a href="#设计模式" class="headerlink" title="设计模式"></a>设计模式</h2><h4 id="一-创建型模式"><a href="#一-创建型模式" class="headerlink" title="一.创建型模式"></a>一.创建型模式</h4><h4 id="1-单例模式"><a href="#1-单例模式" class="headerlink" title="1.单例模式"></a>1.单例模式</h4><pre><code>饿汉式：构造器私有 静态化成员变量和公共方法
+        加载类时，天然是线程安全的。效率高
+懒汉式：用的时候才加载，需要同步。效率低。
+静态内部类：安全，高效，可延时加载
+枚举类：避免了反射和反序列化问题。不能延时加载
+破解反射和反序列化：
+构造方法中加判断，加一个readResolve方法，返回已有对象
+</code></pre><h4 id="2-工厂模式"><a href="#2-工厂模式" class="headerlink" title="2.工厂模式"></a>2.工厂模式</h4><pre><code>实现了创建者和调用者的分离。
+详细分类：简单工厂模式、工厂方法模式、抽象工厂模式
+</code></pre><h4 id="3-建造者模式"><a href="#3-建造者模式" class="headerlink" title="3.建造者模式"></a>3.建造者模式</h4><pre><code>– 分离了对象子组件的单独构造(由Builder来负责)和装配(由Director负责)。 
+  从而可以构 造出复杂的对象。这个模式适用于：某个对象的构建过程复杂的情况下使用。
+– 由于实现了构建和装配的解耦。不同的构建器，相同的装配，也可以做出不同的对象； 
+  相同的构建器，不同的装配顺序也可以做出不同的对象。
+  也就是实现了构建算法、装配 算法的解耦，实现了更好的复用
+</code></pre><h4 id="4-原型模式"><a href="#4-原型模式" class="headerlink" title="4.原型模式"></a>4.原型模式</h4><pre><code>– 通过new产生一个对象需要非常繁琐的数据准备或访问权限，则可以使用原型模式。 
+– 就是java中的克隆技术，以某个对象为原型，复制出新的对象。显然，新的对象具备原型对象的特点
+– 优势有：效率高(直接克隆，避免了重新执行构造过程步骤)、“接口造接口”。
+– 克隆类似于new，但是不同于new。new创建新的对象属性采用的是默认值。
+  克隆出的 对象的属性值完全和原型对象相同。并且克隆出的新对象改变不会影响原型对象。
+  然后， 再修改克隆对象的值。
+</code></pre><p>  原型模式实现：<br>    – Cloneable接口和clone方法<br>    – Prototype模式中实现起来最困难的地方就是内存复制操作，<br>    所幸在Java中提供了 clone()方法替我们做了绝大部分事情。<br>    spring中bean的创建实际就是两种：单例模式和原型模式。</p>
+<h4 id="二-结构型模式"><a href="#二-结构型模式" class="headerlink" title="二.结构型模式"></a>二.结构型模式</h4><pre><code>关注类对象和类的组织
+核心作用：是从程序的结构上实现松耦合，从而可以扩大整体的类结构，用来解决更大的问题。
+分类：适配器模式、代理模式、桥接模式、装饰模式、组合模式、外观模式、享元模式
+</code></pre><h4 id="1-适配器模式"><a href="#1-适配器模式" class="headerlink" title="1.适配器模式"></a>1.适配器模式</h4><pre><code>将一个类的接口转换成客户希望的另外一个接口。Adapter模式使得原本由于接口不兼容而不能
+一起工作的类可以一起工作。
+目标接口：target；需要适配的类：Adptee；适配器：Adapter
+</code></pre><h4 id="2-代理模式（Proxy-patern）"><a href="#2-代理模式（Proxy-patern）" class="headerlink" title="2.代理模式（Proxy patern）"></a>2.代理模式（Proxy patern）</h4><pre><code>核心作用：通过代理，控制对对象的访问
+可以详细控制访问某个（某类 ）对象的方法，在调用这个方法前做前置处理，调用这个方法后，
+做后置处理。即：AOP的微观实现
+分类： 
+– 静态代理(静态定义代理类) 
+– 动态代理(动态生成代理类) 
+    • JDK自带的动态代理 
+    • javaassist字节码操作库实现(推荐) 
+    • CGLIB 
+    • ASM(底层使用指令，可维护性较差)
+使用场景：– struts2中拦截器的实现 
+         – 数据库连接池关闭处理 
+         – Hibernate中延时加载的实现 
+         – mybatis中实现拦截器插件 
+         – AspectJ的实现 
+         – spring中AOP的实现 
+         – web service 
+         – RMI远程方法调用 
+</code></pre><h4 id="3-桥接模式（bridge）"><a href="#3-桥接模式（bridge）" class="headerlink" title="3.桥接模式（bridge）"></a>3.桥接模式（bridge）</h4><pre><code>解决类的膨胀问题
+-桥接模式可以取代多层继承的方案。多层继承违背了单一指责原则，
+复用性较差，类的个数也非常多。桥接模式可以极大的减少子类的个数，
+从而降低管理和维护的成本。
+-极大的提高了系统可扩展性，在两个变化维度中任意扩展一个维度，都不需要
+修改原有的系统，符合开闭原则。
+</code></pre><h4 id="4-组合模式（composite）"><a href="#4-组合模式（composite）" class="headerlink" title="4.组合模式（composite）"></a>4.组合模式（composite）</h4><pre><code>使用场景：把部分和整体的关系用树形结构来表示，从而使客户端可以使用统一的方式处理部分对象和整体对象
+核心：抽象构件（Component）角色：定义了叶子和容器构件的共同点
+      叶子（Leaf）构件角色：无子节点
+      容器（Composite）构件角色：有容器特征，可以包含子节点
+操作系统的资源管理器、XML文件解析、OA系统中，组织结构的处理、Junit单元测试框架
+</code></pre><p>####5.装饰模式（decorator）<br>    职责：动态的为一个对象增加新的功能。<br>    装饰模式是一种用于代替继承的技术，无须通过继承增加子类就能扩展对象的新功能。使用对象的关联关系代替继承关系，<br>    更加灵活，同时避免类型体系的快速膨胀。</p>
+<h4 id="6-外观模式（facade）"><a href="#6-外观模式（facade）" class="headerlink" title="6.外观模式（facade）"></a>6.外观模式（facade）</h4><pre><code>迪米特法则（最少知识原则）：
+-一个软件实体应当尽可能少的与其他实体发生相互作用。
+核心：为子系统提供统一的入口。封装子系统的复杂性，便于客户端调用。
+</code></pre><h4 id="7-享元模式（FlyWeight）"><a href="#7-享元模式（FlyWeight）" class="headerlink" title="7.享元模式（FlyWeight）"></a>7.享元模式（FlyWeight）</h4><pre><code>场景：内存属于稀缺资源，不要随便浪费。如果有很多个完全相同或相似的对象，我们可以通过享元模式，节省内存。
+核心：享元模式以共享的方式高效地支持大量细粒度对象的重用。
+     享元对象能做到共享的关键是区分了内部状态和外部状态。
+        -内部状态：可以共享，不会随环境变化而改变
+        -外部状态：不可以共享，会随环境变化而改变
+应用：线程池、数据库连接池、String类的设计也是享元模式
+</code></pre><h4 id="三-行为型模式"><a href="#三-行为型模式" class="headerlink" title="三.行为型模式"></a>三.行为型模式</h4><pre><code>关注系统中对象之间的相互交互，研究系统在运行时对象之间的相互通信和协作，进一步明确对象的职责，共11种。
+</code></pre><h4 id="1-责任链模式-chain-of-responsibility"><a href="#1-责任链模式-chain-of-responsibility" class="headerlink" title="1.责任链模式 chain of responsibility"></a>1.责任链模式 chain of responsibility</h4><pre><code>定义：-将能够处理同一类请求的对象连成一条链，所提交的请求沿着链传递，链上的对象逐个判断是否有能力处理该请求，如果能则处理，
+       如果不能则传递给链上的下一个对象。
+</code></pre><h4 id="2-迭代器模式-iterator"><a href="#2-迭代器模式-iterator" class="headerlink" title="2.迭代器模式 iterator"></a>2.迭代器模式 iterator</h4><pre><code>场景：提供一种可以遍历聚合对象的方式。又称为：游标cursor模式
+聚合对象：存储数据
+迭代器：遍历数据
+</code></pre><h4 id="3-中介者模式-Mediator"><a href="#3-中介者模式-Mediator" class="headerlink" title="3.中介者模式 Mediator"></a>3.中介者模式 Mediator</h4><pre><code>核心：如果一个系统中对象之间的联系呈现为网状结构，对象之间存在大量多对多关系，将导致关系及其复杂，这些对象称为（同事对象）
+    我们可以引入一个中介者对象，使各个同事对象只跟中介者对象打交道，将复杂的网络结构化解为如下的星形结构。 
+本质：解耦多个同事对象之间的交互关系。每个对象都持有中介者对象的引用，只跟中介者对象打交道。我们通过中介者对象统一管理这些交互关系。
+场景：MVC模式中的C控制器就是一个中介者对象。M和V都和他打交道。
+      Java.lang.reflect.Method#invoke()
+</code></pre><h4 id="4-命令模式-command"><a href="#4-命令模式-command" class="headerlink" title="4.命令模式 command"></a>4.命令模式 command</h4><pre><code>将一个请求封装为一个对象，从而使我们可用不同的请求对客户进行参数化；对请求排队或者记录请求日志，以及支持可撤销的操作。
+也称之为：动作Action模式、事务transaction模式
+</code></pre><h4 id="5-解释器模式Interpreter"><a href="#5-解释器模式Interpreter" class="headerlink" title="5.解释器模式Interpreter"></a>5.解释器模式Interpreter</h4><pre><code>用于描述如何构成一个简单的语言解释器，主要用于使用面向对象语言开发的编译器和解释器设计
+</code></pre><h4 id="6-访问者模式-Visitor"><a href="#6-访问者模式-Visitor" class="headerlink" title="6.访问者模式 Visitor"></a>6.访问者模式 Visitor</h4><pre><code>模式动机：对于存储在一个集合中的对象，他们可能具有不同的类型（即使有一个公共的接口），对于该集合中的对象，可以接受一类称为访问者的对象
+        来访问，不同的访问者其访问方式有所不同。
+定义：表示一个作用于某对象结构中的各元素的操作，它使我们可以在不改变元素的类的前提下定义作用于这些元素的新操作。
+</code></pre><h4 id="7-策略模式-strategy"><a href="#7-策略模式-strategy" class="headerlink" title="7.策略模式 strategy"></a>7.策略模式 strategy</h4><pre><code>策略模式对应于解决某一个问题的一个算法族，允许用户从该算法族中任选一个算法解决某一个问题。同时可以方便地更换算法或者增加新的算法。
+并且由客户端决定调用那个算法。
+</code></pre><h4 id="8-模板方法模式-template-method"><a href="#8-模板方法模式-template-method" class="headerlink" title="8.模板方法模式 template method"></a>8.模板方法模式 template method</h4><pre><code>模板方法模式是编程中经常用得到模式。它定义了一个操纵中的算法骨架。将某些步骤延迟到子类中实现。这样，新的子类可以在不改变一个算法结构的前提下
+重新定义该算法的某些特定步骤。
+核心：处理某个流程的代码已经都具备，但是其中某个节点的代码暂时不能确定。因此，我们采用工厂方法模式，将这个节点的代码实现转移给子类完成。
+    即：处理步骤父类中定义好，具体实现延迟到子类中定义。
+实现一个算法时，整体步骤很固定。但是，某些部分易变。易变部分可以抽象出来，供子类实现。
+使用场景：数据库访问的封装、Junit单元测试、servlet中doGet/doPost方法调用、Hibernate中模板程序；
+          spring中JDBCTemplate、HibernateTemplate等。
+</code></pre><h4 id="9-状态模式-state"><a href="#9-状态模式-state" class="headerlink" title="9.状态模式 state"></a>9.状态模式 state</h4><pre><code>核心：用于解决系统中复杂对象的状态转换以及不同状态下行为的封装问题
+结构：Context环境类，环境类中维护一个State对象，他是定义了当前的状态。
+      State抽象状态类
+      ConcreteState具体状态类，每一个类封装了一个状态对应的行为
+场景：线程对象的状态，酒店房间状态。
+</code></pre><h4 id="10-观察者模式-Observer"><a href="#10-观察者模式-Observer" class="headerlink" title="10.观察者模式 Observer"></a>10.观察者模式 Observer</h4><pre><code>核心：观察者模式主要用于1：N的通知，当一个对象（目标对象Subject或Objservable）的状态变化时，她需要及时告知一系列对象（观察者对象，Observer），令他们做出响应
+通知观察者的方式：
+    推：每次都会把通知以广播方式发送给所有观察者，所有观察者只能被动接收。
+    拉：观察者只要直到有情况即可。至于什么时候获取内容，获取什么内容，都可以自主决定。
+Servlet中，监听器的实现，邮件订阅，网游服务器将客户端状态进行分发，聊天室
+</code></pre><h4 id="11-备忘录模式-memento"><a href="#11-备忘录模式-memento" class="headerlink" title="11.备忘录模式 memento"></a>11.备忘录模式 memento</h4><pre><code>核心：就是保存某个对象内部状态的拷贝，这样以后就可以将该对象恢复到原先的状态。
+结构：源发器类Originator
+      备忘录类Memento
+      负责人类CareTake 
+场景：悔棋，普通软件中的撤销操作，数据库软件事务管理中的回滚操作，PS中的历史记录
+</code></pre>
+                </div>
+                <hr/>
+
+                <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone, qq, weibo, douban"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+                <div class="reprint">
+                    <p>
+                        <span class="reprint-tip">Reprint please specify: </span>
+                        <a href="https://xuanyuanpu.github.io" class="b-link-green">Hexo</a>
+                        <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                        <a href="/2018/09/26/设计模式/" class="b-link-green"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        
+
+        
+
+        
+
+<article id="articles" class="container prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">Current</div>
+            <div class="card">
+                <a href="/2018/09/26/设计模式/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/0.jpg" class="responsive-img" alt="">
+                        
+                        <span class="card-title"></span>
+                    </div>
+
+                    <div class="card-content article-content">
+                        <div class="summary">
+title：Hello World设计模式一.创建型模式1.单例模式饿汉式：构造器私有 静态化成员变量和公共方法
+        加载类时，天然是线程安全的。效率高
+懒汉式：用的时候才加载，需要同步。效率低。
+静态内部类：安全，高效，可延</div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-calendar fa-fw"></i>2018-09-26
+                            </span>
+                            <span class="publish-author">
+                                <i class="fa fa-user fa-fw"></i>
+                                
+                                xuanyuanpu
+                                
+                            </span>
+                        </div>
+                    </div>
+
+                    
+                </a>
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">Next</div>
+            <div class="card">
+                <a href="/2018/09/25/hello-world/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        
+                        <span class="card-title">Hello World</span>
+                    </div>
+                    <div class="card-content article-content">
+                        <div class="summary">
+                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
+                        </div>
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-calendar fa-fw"></i>2018-09-25
+                            </span>
+                            <span class="publish-author">
+                                <i class="fa fa-user fa-fw"></i>
+                                
+                                xuanyuanpu
+                                
+                            </span>
+                        </div>
+                    </div>
+                    
+                </a>
+            </div>
+        </div>
+        
+    </div>
+</article>
+    </div>
+</main>
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="http://blinkfox.com" target="_blank">Blinkfox</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 采用
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">hexo-theme-matery</a>主题搭建.
+        </div>
+        <div class="col s12 m4 l4 social-link">
+            <a href="https://github.com/blinkfox" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+                <i class="fa fa-github fa-lg"></i>
+            </a>
+            <a href="mailto:chenjiayin1990@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+                <i class="fa fa-envelope fa-lg"></i>
+            </a>
+            <a href="#!" class="tooltipped" data-tooltip="QQ:2275438512" data-position="top" data-delay="50">
+                <i class="fa fa-qq fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title">Search</span>
+            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword"
+                   class="search-input" autofocus="">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-double-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+</body>
+</html>
